@@ -1,0 +1,101 @@
+{
+    "Whiterun":{
+        "text": "You're in the middle of Whiterun, within its tall protective walls. \nThere's a lively market selling goods, with smells of cooking fires and \nthe distant clang of blacksmiths working away",
+        "moves": {
+            "north": "Dawnstar",
+            "east": "Windhelm",
+            "south": "Falkreath",
+            "west": "Markarth"
+        },
+        "objects":[{
+			"name":"a golden sword",
+			"type": "special"
+		}]
+    },
+    "Dawnstar":{
+        "text": "Dawnstar is a bustling trading town that produces all sorts of produce, \nranging from fish to smithing materials. \nIt is where the sun greets you as it begins its journey, hence the name",
+        "moves": {
+            "north": "Castle Volkihar",
+            "east": "Winterhold",
+            "south": "Whiterun",
+            "west": "Morthal"
+        },
+        "objects":[{
+			"name":"a iron sword",
+			"type": "special"
+		}]
+    },
+    "Morthal":{
+        "text": "Morthal is situated off the main road that runs throughout Hjaalmarch. \nMuch of the marsh is nothing but uninhabitable land, \nconsisting of sunken ruins and caves",
+        "moves": {
+            "north": "Solitude",
+            "east": "Dawnstar",
+            "south": "Whiterun",
+            "west": "Markarth"
+        },
+        "objects":[{
+			"name":"a stone sword",
+			"type": "special"
+		}]
+    },
+    "Winterhold":{
+        "text": "The city of Winterhold is the most isolated city in the Holds of Skyrim, \nit is located in the snowy mountains of the north, around Mount Anthor. \nMost of the city has plunged into the Sea of Ghosts, leaving ruined homes in its wake",
+        "moves": {
+            "south": "Windhelm",
+            "west": "Dawnstar"
+        },
+        "objects":[{
+			"name":"a netherite sword",
+			"type": "special"
+		}]
+    },
+    "Windhelm":{
+        "text": "Windhelm is one of the oldest Tamrielic cities and is a shining example of \nhow great the original Empire of Humans was in its prime",
+        "moves": {
+            "north": "Winterhold",
+            "south": "Riften",
+            "west": "Whiterun"
+        },
+        "objects":[{
+			"name":"a golden axe",
+			"type": "special"
+		}]
+    },
+    "Riften":{
+        "text": "Riften is a built along the shores of Lake Honrich, made from wooden platforms and \nserving as a main hub of trading throughout the Rift and the Southern Velothi Mountains. \nThe lower canals are used as ports for skiffs moving throughout the lake",
+        "moves": {
+            "north": "Windhelm",
+            "west": "Falkreath"
+        }
+    },
+    "Falkreath":{
+        "text": "Falkreath is known for its death and melancholy themes as it is the home of Skyrim's vast graveyards, \nholding the remains of many fallen warriors from as far as the Merethic Era to the Fourth Era",
+        "moves": {
+            "north": "Whiterun",
+            "east": "Riften"
+        }
+    },
+    "Markarth":{
+        "text": "Markarth is known for its rich silver mines that use convict labour, which are mostly owned by the influential Silver-Bloods family",
+        "moves": {
+            "north": "Solitude",
+            "east": "Whiterun"
+        }
+    },
+    "Solitude":{
+        "text": "Solitude is a major shipping port and important Imperial supply line",
+        "moves": {
+            "east": "Morthal",
+            "south": "Markarth"
+        }
+    },
+    "Castle Volkihar":{
+        "text": "Castle Volkihar.",
+        "moves": {
+            "north": "Castle Volkihar",
+            "east": "Castle Volkihar",
+            "south": "Dining Hall",
+            "west": "Castle Volkihar"
+        }
+    }
+}
